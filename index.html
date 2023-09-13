@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2 style="color: white;">USERFACET</h2>
+            <p style="color: white;">Next word: <span id="nextblock" style="color: #0780C8;">AND</span></p>
+            <div class="upright">
+                <img src="./img/icons8-flag-50.png" alt="">
+                <p style="color: #0780C8;">Score: <span id="score" style="color: white;">0</span></p>
+            </div>
+        </div>
+        <div id="box">
+
+        </div>
+        <div class="footer">
+            <img onclick="clicked()" id="replay" src="./img/icons8-replay-64.png" alt="">
+            <div class="right">
+                <button onclick="myFunction()">Hint</button>
+                <div class="rightmost">
+                    <img  src="./img/icons8-time-30.png" alt="">
+                    <h2 id="countdown" style="color: rgb(20, 219, 20);">5:00</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
